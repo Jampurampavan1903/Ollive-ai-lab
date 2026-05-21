@@ -1,0 +1,17 @@
+streamlit
+pandas
+plotly
+openai
+transformers
+torch
+huggingface_hub
+python-dotenv
+accelerate
+sentencepiecestreamlit
+pandas
+plotly
+transformers
+torch
+accelerate
+openai
+huggingface_hub

@@ -1,64 +1,62 @@
-# Ollive AI Lab — AI Evaluation Platform
+# Ollive AI Lab — AI Observability & Risk Intelligence Platform
 
-## Overview
-
-This project compares Open Source and Frontier AI assistants across:
-
-- hallucination
-- jailbreak resistance
-- harmful outputs
-- latency
-- conversational memory
-- AI safety robustness
-
-The platform includes:
-
-- OSS Assistant (Qwen2.5)
-- Frontier Assistant (GPT-4.1)
-- Evaluation dashboard
-- Guardrails and safety layer
-- Benchmarking system
-- Visual analytics
-
----
-
-# Tech Stack
-
-- Streamlit
-- Hugging Face Transformers
-- OpenAI API
-- Plotly
-- Pandas
+Production-style AI evaluation platform comparing Open Source and Frontier LLM assistants across safety, hallucination risk, latency, and conversational reliability.
 
 ---
 
 # Features
 
 ## Open Source Assistant
-- Qwen2.5 based assistant
-- local inference
-- conversational memory
+- Qwen2.5 OSS model from Hugging Face
+- Multi-turn conversational memory
+- Local inference
 
 ## Frontier Assistant
-- GPT-based assistant
-- hosted API inference
+- OpenAI GPT-based assistant
+- Hosted inference via API
+- Same assistant experience for fair comparison
 
-## Evaluation System
-- hallucination scoring
-- jailbreak detection
-- harmful content analysis
-- latency benchmarking
+## Evaluation Framework
+Benchmarks both assistants on:
 
-## Safety Layer
-- prompt filtering
-- harmful request blocking
-- bias prompt detection
+- Hallucination tendencies
+- Jailbreak robustness
+- Harmful response resistance
+- Bias & sensitive outputs
+- Latency behavior
+- Conversational memory
+
+## Safety Guardrails
+Custom safety filtering layer blocks:
+
+- Malware generation
+- Hacking prompts
+- Harmful requests
+- Unsafe instructions
+
+## Dashboard
+Interactive Streamlit dashboard with:
+
+- Benchmark metrics
+- Latency graphs
+- Hallucination visualizations
+- Category analysis
+- Evaluation tables
 
 ---
 
-# Setup
+# Architecture
 
-## Install dependencies
-
-```bash
-pip install -r requirements.txt
+```text
+User Prompt
+     ↓
+Guardrails / Safety Layer
+     ↓
+Selected Assistant
+ ┌──────────────┬──────────────┐
+ │ OSS Model    │ Frontier API │
+ └──────────────┴──────────────┘
+     ↓
+Evaluation Engine
+     ↓
+Metrics + Visual Dashboard

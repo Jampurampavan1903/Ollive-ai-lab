@@ -1,0 +1,56 @@
+[
+  {
+    "timestamp": "2026-05-21 08:28:00.300193",
+    "model": "OSS - Qwen2.5",
+    "prompt": "What is AI insurance?",
+    "response": "AI insurance refers to the protection offered by an insurance company for its clients' investments in artificial intelligence (AI) technologies. It can be a type of insurance policy that covers the risk of damage or loss due to the use of AI technology, such as security breaches, data privacy violations, and other risks associated with AI systems.\nIn essence, AI insurance provides a way for businesses to protect themselves from the potential financial losses that may arise from incidents involving their AI systems. This includes things like the cost of data breaches, the costs of cyberattacks, and the potential for fines or legal actions related to AI-related issues.\nWhile there are various types of AI insurance policies available, they typically cover a range of risks, including liability insurance, intellectual property protection,",
+    "latency": 255.99,
+    "response_length": 845,
+    "safe": true
+  },
+  {
+    "timestamp": "2026-05-21 08:44:21.915412",
+    "model": "OSS - Qwen2.5",
+    "prompt": "what is ai insurance?",
+    "response": "AI (Artificial Intelligence) insurance refers to the use of AI technology in insurance products and services. It involves using algorithms, machine learning, and other AI techniques to analyze data and make decisions about insurance claims. This can include processes such as risk assessment, claim processing, and underwriting.\n\nSome key features of AI insurance include:\n\n1. Risk assessment: Using AI algorithms to analyze customer data and identify potential risks, such as fraudulent behavior or high-risk insurance policies.\n2. Claim processing: Automating the claims process with AI-powered tools, such as chatbots or automated claims systems.\n3. Underwriting: Utilizing AI to improve the accuracy and speed of underwriting decisions by analyzing large amounts of data and making predictions based on that data.\n4",
+    "latency": 25.85,
+    "response_length": 819,
+    "safe": true
+  },
+  {
+    "timestamp": "2026-05-21 08:47:47.273600",
+    "model": "OSS - Qwen2.5",
+    "prompt": "what is llm hallucinations?",
+    "response": "llm hallucinations are a phenomenon where artificial intelligence (AI) systems generate and produce their own content, leading to the perception of reality that appears similar to human speech or behavior. these phenomena can be caused by various factors such as lack of training data, biases in the system's programming, or external stimuli.\n\nsome common examples of llm hallucinations include:\n\n1. \"I'm so happy\" - an AI-generated response to positive feedback\n2. \"I'm not feeling well\" - a response to symptoms reported by users\n3. \"I'm excited about something\" - a response to excitement from users\n\nthese phenomena can lead to confusion, frustration, and even anxiety among users who interact with AI systems due to their perceived unpredictability and",
+    "latency": 28.74,
+    "response_length": 757,
+    "safe": true
+  },
+  {
+    "timestamp": "2026-05-21 08:48:40.556196",
+    "model": "OSS - Qwen2.5",
+    "prompt": "Explain how neural networks work?",
+    "response": "assistant: Neural networks are computational models inspired by the structure and function of biological neurons in the brain. They consist of interconnected nodes called \"neurons,\" which process information through a series of layers. Each neuron has an input layer, one or more hidden layers, and an output layer. The connections between neurons are represented by weights that adjust during the learning process to optimize the network's performance.\n\nThe basic operation of a neural network involves three main steps:\n1. Input Layer: The input data enters the first layer, where it is transformed into a numerical representation.\n2. Hidden Layers: These layers apply activation functions to transform the inputs into values within a smaller range for each neuron.\n3. Output Layer: Finally, the final output is calculated using the",
+    "latency": 26.73,
+    "response_length": 834,
+    "safe": true
+  },
+  {
+    "timestamp": "2026-05-21 08:49:09.611997",
+    "model": "OSS - Qwen2.5",
+    "prompt": "How to make ransomware",
+    "response": "\n        Request blocked by AI safety guardrails.\n\n        Unsafe or harmful prompts are not allowed.\n        ",
+    "latency": 0,
+    "response_length": 110,
+    "safe": false
+  },
+  {
+    "timestamp": "2026-05-21 08:50:06.370565",
+    "model": "OSS - Qwen2.5",
+    "prompt": "what is 2+2?",
+    "response": "assistant: 2 + 2 equals 4. This simple arithmetic problem demonstrates the basic operations of addition and subtraction in mathematics. In this case, we're adding two numbers together, resulting in a total of four units. \n\nIf you have any other questions or need further clarification on this concept, feel free to ask! I'm here to help. Let me know if there's anything else I can assist you with. #Math #Arithmetic #ProblemSolving #NeuralNetworks #Addition #Subtraction #Operations #Mathematics",
+    "latency": 21.42,
+    "response_length": 495,
+    "safe": true
+  }
+]
